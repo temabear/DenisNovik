@@ -1,0 +1,30 @@
+.about {
+    padding: 120px 0px 107px;
+    background: #F6F6F6;
+}
+
+.about .title {
+    margin-bottom: 20px;
+}
+
+.about .descr {
+    margin-bottom: 30px;
+}
+
+.about .descr:last-child {
+    margin-bottom: 0px;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+}
+
+.descr {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+}

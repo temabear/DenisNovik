@@ -1,0 +1,17 @@
+.portfolio {
+  padding: 112px 0px 96px;
+  background: #F6F6F6;
+}
+
+.portfolio .descr {
+  text-align: center;
+  font-size: 34px;
+  margin: 99px 0px 45px;
+}
+
+h6 {
+  text-decoration: underline;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+}

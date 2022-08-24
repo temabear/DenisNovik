@@ -1,0 +1,55 @@
+.skills {
+    font-weight: bold;
+    padding: 91px 0px 111px;
+}
+
+.skills .title {
+    margin-bottom: 20px;
+}
+
+.card-center {
+    padding-top: 83px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.card-item {
+    width: 25%;
+}
+
+.card-item img {
+    width: 88px;
+    height: 88px;
+    margin-bottom: 23px;
+}
+
+.card-item.figma img {
+    width: 58px;
+}
+
+.card-center p {
+    font-weight: bold;
+    color: #828282;
+}
+
+@media screen and (max-width: 420px) {
+    /* IPHONE XR */
+    .skills {
+        height: 1200px;
+    }
+
+    .card-center {
+        display: flex;
+        margin: auto;
+        font-size: 14px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card-item p {
+        padding-bottom: 81px;
+        white-space: pre-line;
+    }
+
+}
